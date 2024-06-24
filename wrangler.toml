@@ -1,0 +1,21 @@
+name = "rickeamanda"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DATABASE"
+database_name = "rickeamanda-db"
+database_id = "3505eca8-be3e-4591-91f8-c8fe593d57b9"
+
+# [ai]
+# binding = "AI"
