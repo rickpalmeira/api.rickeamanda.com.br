@@ -1,5 +1,11 @@
-name = "rickeamanda"
-compatibility_date = "2023-12-01"
+#:schema node_modules/wrangler/config-schema.json
+name = "api-rickeamanda"
+main = "src/index.ts"
+compatibility_date = "2024-06-20"
+compatibility_flags = ["nodejs_compat"]
+
+[placement]
+mode = "smart"
 
 # [vars]
 # MY_VAR = "my-variable"
