@@ -1,4 +1,4 @@
-interface gift {
+interface Gift {
   id: number;
   name: string;
   price: number;
@@ -6,7 +6,7 @@ interface gift {
   url?: string;
 }
 
-const giftList: gift[] = [
+const giftList: Gift[] = [
   {
     id: 1,
     name: "Gift 1",
