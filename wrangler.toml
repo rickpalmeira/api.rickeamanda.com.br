@@ -19,9 +19,9 @@ mode = "smart"
 # bucket_name = "my-bucket"
 
 [[d1_databases]]
-binding = "DATABASE"
-database_name = "rickeamanda-db"
-database_id = "3505eca8-be3e-4591-91f8-c8fe593d57b9"
+binding = "DB"
+database_name = "db-rickeamanda"
+database_id = "de19d4bb-1e4c-4734-bd61-45ffdce94f86"
 
 # [ai]
 # binding = "AI"
