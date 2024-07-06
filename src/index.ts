@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
-import getGiftList from "./gift";
+import { getGiftList } from "./gifts";
 
 const app = new Hono().use("/*", cors());
 
