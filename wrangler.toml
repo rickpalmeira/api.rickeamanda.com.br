@@ -3,6 +3,9 @@ name = "api-rickeamanda"
 main = "src/index.ts"
 compatibility_date = "2024-06-20"
 compatibility_flags = ["nodejs_compat"]
+routes = [
+  { pattern = "api.casamento.rickpalmeira.dev", custom_domain = true }
+]
 
 [placement]
 mode = "smart"
